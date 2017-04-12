@@ -15,6 +15,7 @@ class RollDices: NSObject {
     var DiceTwo = GKRandomDistribution.d20()
     var diceSum = 0
     var diceSum2 = 0
+    var fille382 = true
     
     func RollDiceOne()  {
         diceSum = (Int(DiceOne.nextInt()))
