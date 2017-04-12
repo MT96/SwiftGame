@@ -1,0 +1,6 @@
+framework module Pods_SwiftGameUITests {
+  umbrella header "Pods-SwiftGameUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
