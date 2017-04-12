@@ -14,6 +14,8 @@
 		8231CBDF1E9D072D00B07FD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8231CBDD1E9D072D00B07FD0 /* LaunchScreen.storyboard */; };
 		8231CBEA1E9D072D00B07FD0 /* SwiftGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8231CBE91E9D072D00B07FD0 /* SwiftGameTests.swift */; };
 		8231CBF51E9D072D00B07FD0 /* SwiftGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8231CBF41E9D072D00B07FD0 /* SwiftGameUITests.swift */; };
+		8231CC031E9D2DD400B07FD0 /* TestDice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8231CC021E9D2DD400B07FD0 /* TestDice.swift */; };
+		8231CC051E9E566200B07FD0 /* PrimeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8231CC041E9E566200B07FD0 /* PrimeTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		8231CBF01E9D072D00B07FD0 /* SwiftGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8231CBF41E9D072D00B07FD0 /* SwiftGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftGameUITests.swift; sourceTree = "<group>"; };
 		8231CBF61E9D072D00B07FD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8231CC021E9D2DD400B07FD0 /* TestDice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestDice.swift; sourceTree = "<group>"; };
+		8231CC041E9E566200B07FD0 /* PrimeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimeTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +101,11 @@
 		8231CBD31E9D072D00B07FD0 /* SwiftGame */ = {
 			isa = PBXGroup;
 			children = (
-				8231CBD41E9D072D00B07FD0 /* AppDelegate.swift */,
-				8231CBD61E9D072D00B07FD0 /* ViewController.swift */,
 				8231CBD81E9D072D00B07FD0 /* Main.storyboard */,
+				8231CBD61E9D072D00B07FD0 /* ViewController.swift */,
+				8231CC041E9E566200B07FD0 /* PrimeTableViewCell.swift */,
+				8231CC021E9D2DD400B07FD0 /* TestDice.swift */,
+				8231CBD41E9D072D00B07FD0 /* AppDelegate.swift */,
 				8231CBDB1E9D072D00B07FD0 /* Assets.xcassets */,
 				8231CBDD1E9D072D00B07FD0 /* LaunchScreen.storyboard */,
 				8231CBE01E9D072D00B07FD0 /* Info.plist */,
@@ -263,7 +269,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8231CBD71E9D072D00B07FD0 /* ViewController.swift in Sources */,
+				8231CC031E9D2DD400B07FD0 /* TestDice.swift in Sources */,
 				8231CBD51E9D072D00B07FD0 /* AppDelegate.swift in Sources */,
+				8231CC051E9E566200B07FD0 /* PrimeTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
